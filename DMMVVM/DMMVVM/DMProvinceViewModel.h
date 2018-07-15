@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DMPlaceInfo.h"
 
 @interface DMProvinceViewModel : NSObject
+
+- (NSArray<DMPlaceInfo *> *)getProvinceList;
+- (NSArray<DMPlaceInfo *> *)fetchCityListFor:(NSString *)proName;
+- (NSArray<DMPlaceInfo *> *)fetchRegion:(NSString *)cityName;
 
 @end

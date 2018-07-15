@@ -10,4 +10,6 @@
 
 @protocol DMProvinceProtocol <NSObject>
 
+@property (nonatomic, copy) NSString *name;
+
 @end

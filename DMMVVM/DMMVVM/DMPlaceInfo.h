@@ -10,4 +10,6 @@
 
 @interface DMPlaceInfo : NSObject
 
+@property (nonatomic, copy) NSString *placeName;
+
 @end

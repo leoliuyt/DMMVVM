@@ -7,7 +7,10 @@
 //
 
 #import "DMNameCell.h"
+@interface DMNameCell()
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 
+@end
 @implementation DMNameCell
 
 - (void)awakeFromNib {

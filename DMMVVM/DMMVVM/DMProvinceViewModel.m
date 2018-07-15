@@ -8,6 +8,22 @@
 
 #import "DMProvinceViewModel.h"
 
+
 @implementation DMProvinceViewModel
+
+- (NSArray<DMPlaceInfo *> *)getProvinceList
+{
+    return nil;
+}
+
+- (NSArray<DMPlaceInfo *> *)fetchCityListFor:(NSString *)proName
+{
+    return nil;
+}
+
+- (NSArray<DMPlaceInfo *> *)fetchRegion:(NSString *)cityName
+{
+    return nil;
+}
 
 @end

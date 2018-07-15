@@ -13,6 +13,9 @@
 		6BA7EB6F20CA2F3300FC8278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EB6E20CA2F3300FC8278 /* Assets.xcassets */; };
 		6BA7EB7220CA2F3300FC8278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EB7020CA2F3300FC8278 /* LaunchScreen.storyboard */; };
 		6BA7EB7520CA2F3300FC8278 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA7EB7420CA2F3300FC8278 /* main.m */; };
+		6BA7EB7D20CA2FBB00FC8278 /* DMNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA7EB7C20CA2FBB00FC8278 /* DMNameCell.m */; };
+		6BA7EB8020CA312E00FC8278 /* DMProvinceViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA7EB7F20CA312E00FC8278 /* DMProvinceViewModel.m */; };
+		6BA7EB8320CA314F00FC8278 /* DMPlaceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA7EB8220CA314F00FC8278 /* DMPlaceInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,13 @@
 		6BA7EB7120CA2F3300FC8278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BA7EB7320CA2F3300FC8278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BA7EB7420CA2F3300FC8278 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BA7EB7B20CA2FBB00FC8278 /* DMNameCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMNameCell.h; sourceTree = "<group>"; };
+		6BA7EB7C20CA2FBB00FC8278 /* DMNameCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMNameCell.m; sourceTree = "<group>"; };
+		6BA7EB7E20CA312E00FC8278 /* DMProvinceViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMProvinceViewModel.h; sourceTree = "<group>"; };
+		6BA7EB7F20CA312E00FC8278 /* DMProvinceViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMProvinceViewModel.m; sourceTree = "<group>"; };
+		6BA7EB8120CA314F00FC8278 /* DMPlaceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMPlaceInfo.h; sourceTree = "<group>"; };
+		6BA7EB8220CA314F00FC8278 /* DMPlaceInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMPlaceInfo.m; sourceTree = "<group>"; };
+		6BF18D9620CA93A300CFDCA0 /* DMProvinceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMProvinceProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,13 @@
 				6BA7EB6620CA2F3200FC8278 /* AppDelegate.m */,
 				6BA7EB6820CA2F3200FC8278 /* ViewController.h */,
 				6BA7EB6920CA2F3200FC8278 /* ViewController.m */,
+				6BA7EB7E20CA312E00FC8278 /* DMProvinceViewModel.h */,
+				6BA7EB7F20CA312E00FC8278 /* DMProvinceViewModel.m */,
+				6BF18D9620CA93A300CFDCA0 /* DMProvinceProtocol.h */,
+				6BA7EB8120CA314F00FC8278 /* DMPlaceInfo.h */,
+				6BA7EB8220CA314F00FC8278 /* DMPlaceInfo.m */,
+				6BA7EB7B20CA2FBB00FC8278 /* DMNameCell.h */,
+				6BA7EB7C20CA2FBB00FC8278 /* DMNameCell.m */,
 				6BA7EB6B20CA2F3200FC8278 /* Main.storyboard */,
 				6BA7EB6E20CA2F3300FC8278 /* Assets.xcassets */,
 				6BA7EB7020CA2F3300FC8278 /* LaunchScreen.storyboard */,
@@ -141,7 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BA7EB8320CA314F00FC8278 /* DMPlaceInfo.m in Sources */,
+				6BA7EB8020CA312E00FC8278 /* DMProvinceViewModel.m in Sources */,
 				6BA7EB6A20CA2F3200FC8278 /* ViewController.m in Sources */,
+				6BA7EB7D20CA2FBB00FC8278 /* DMNameCell.m in Sources */,
 				6BA7EB7520CA2F3300FC8278 /* main.m in Sources */,
 				6BA7EB6720CA2F3200FC8278 /* AppDelegate.m in Sources */,
 			);
